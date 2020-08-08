@@ -1,13 +1,13 @@
 /** @format */
 //Importando los archivos de la ruta
-const ruta = require(`${__dirname}/../routes`);
+const ruta = require(`${__dirname}/../routes`)
 
 module.exports = (app, io) => {
 	//Archivos de rutas del servicio
-	app.use('/api', ruta);
+	app.use(ruta)
 
 	// Ruta de error
 	app.all('*', (req, res) => {
-		res.status(404).json({ err: 'NOT FOUND' });
-	});
-};
+		res.status(404).json({ err: 'NOT FOUND' })
+	})
+}

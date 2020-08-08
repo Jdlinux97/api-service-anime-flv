@@ -21,6 +21,7 @@
 	},
 	"homepage": "https://github.com/Jdlinux97/expres_plantilla#readme",
 	"dependencies": {
+		"animeflv-scrapper": "^0.3.1",
 		"cors": "^2.8.5",
 		"cross-env": "^7.0.0",
 		"dotenv": "^8.0.0",
@@ -29,6 +30,6 @@
 		"socket.io": "^2.2.0"
 	},
 	"devDependencies": {
-		"nodemon": "^1.19.1"
+		"nodemon": "^2.0.4"
 	}
 }
